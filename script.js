@@ -38,7 +38,7 @@ $(document).ready(function() {
     else {
       $('.male-logo').toggleClass('male-logo duze-logo');
       $('.male-linki').toggleClass('male-linki duze-linki');
-
+      $('.navbar').animate({height: '57px'}, 200);
     }
   }
 });
