@@ -33,12 +33,12 @@ $(document).ready(function() {
     if (pozycjaScrolla > 40) {
       $('.duze-logo').toggleClass('duze-logo male-logo');
       $('.duze-linki').toggleClass('duze-linki male-linki');
-      $('.navbar').animate({height: '40px'}, 200);
+      $('.navbar').stop().animate({height: '40px'}, 200);
     }
     else {
       $('.male-logo').toggleClass('male-logo duze-logo');
       $('.male-linki').toggleClass('male-linki duze-linki');
-      $('.navbar').animate({height: '57px'}, 200);
+      $('.navbar').stop().animate({height: '57px'}, 200);
     }
   }
 });
