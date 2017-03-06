@@ -1,13 +1,9 @@
 $(document).ready(function() {
-// wyswietla przycisk do przewijania strony w gore
   $(window).on('scroll', function() {
     var pozycjaScrolla = $(window).scrollTop();
-    if (pozycjaScrolla > 100) {
-      $('#scrolltop').css('display', 'block');
-    }
-    else {
-      $('#scrolltop').css('display', 'none');
-    }
+    var rozmiarPrzed = $('.navbar').height();
+    strzalkaGora(pozycjaScrolla);
+    przewijaneMenu(pozycjaScrolla);
   });
 // animuje przewijanie po nacisnieciu strzalki
   $('#scrolltop').on('click', function(event) {
@@ -22,4 +18,27 @@ $(document).ready(function() {
 			$('html, body').animate({scrollTop: target.offset().top}, 700);
     }
 	});
+// pokazuje strzalke do przewijania strony
+  function strzalkaGora(pozycjaScrolla) {
+    if (pozycjaScrolla > 100) {
+      $('#scrolltop').css('display', 'block');
+    }
+    else {
+      $('#scrolltop').css('display', 'none');
+    }
+  }
+// zweza menu, zmienia rozmiar trzcionek
+  function przewijaneMenu(pozycjaScrolla) {
+    var rozmiarPo;
+    if (pozycjaScrolla > 40) {
+      $('.duze-logo').toggleClass('duze-logo male-logo');
+      $('.duze-linki').toggleClass('duze-linki male-linki');
+      $('.navbar').animate({height: '40px'}, 200);
+    }
+    else {
+      $('.male-logo').toggleClass('male-logo duze-logo');
+      $('.male-linki').toggleClass('male-linki duze-linki');
+
+    }
+  }
 });

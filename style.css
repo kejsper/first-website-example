@@ -1,3 +1,6 @@
+html, body {
+    color: #343444;
+}
 
 .jumbotron {
   background: url("img/kobietaokular.jpg"); /* For browsers that do not support gradients */
@@ -8,12 +11,99 @@
   height: 400px;
 }
 
+.navbar {
+  background-color: #343444;
+  height: 57px;
+  border: 0px;
+  margin: 0px;
+  padding: 0px 20px 2px 25px;
+}
+
+.duze-logo {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  margin: 0px;
+  font-size: 30px;
+  color: white;
+
+}
+.duze-logo:hover {
+  color: #F1F2DF;
+  font-weight: bold;
+}
+
+.duze-logo:visited {
+  color: white;
+  font-weight: bold;
+}
+
+.duze-linki  {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.duze-linki:hover  {
+  color: #F1F2DF;
+  font-weight: bold;
+}
+
+.duze-linki:visited  {
+  color: white;
+  font-weight: bold;
+}
+
+.male-logo {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  margin: 0px;
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+
+}
+.male-logo:hover {
+  color: #F1F2DF;
+  font-weight: bold;
+}
+
+.male-logo:visited {
+  color: white;
+  font-weight: bold;
+}
+
+.male-linki  {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.male-linki:hover  {
+  color: #F1F2DF;
+  font-weight: bold;
+}
+
+.male-linki:visited  {
+  color: white;
+  font-weight: bold;
+}
+
+#jumbotron {
+  padding-top: 57px;
+}
+
 #omnie-container {
+  padding-top: 56px;
   height: 100vh;
 }
 
 #kontakt-container {
   position: relative;
+  padding-top: 56px;
   height: 100vh;
 }
 
@@ -34,6 +124,33 @@
   cursor: pointer;
 }
 
-.fa {
+#scrolltop > .fa {
   font-size: 55px;
+}
+
+
+
+@media all and (min-width: 768px) {
+  .navbar-fixed-width {
+    width: 768px;
+    margin-left: auto;
+    margin-right:auto;
+ }
+}
+
+@media all and (min-width: 992px) {
+  .navbar-fixed-width {
+    width: 992px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+}
+
+@media all and (min-width: 1200px) {
+  .navbar-fixed-width {
+    width: 1200px;
+    margin-left: auto;
+    margin-right:auto;
+  }
 }
