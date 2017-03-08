@@ -11,13 +11,22 @@ html, body {
   height: 400px;
 }
 
-.navbar {
+.navbar-duzy {
   background-color: #343444;
   height: 57px;
   border: 0px;
-  margin: 0px;
   padding: 0px 20px 2px 25px;
+  transition: 0.4s;
 }
+
+.navbar-maly {
+  background-color: #343444;
+  height: 40px;
+  border: 0px;
+  padding: 0px 20px 2px 25px;
+  transition: 0.4s
+}
+
 
 .duze-logo {
   font-family: 'Roboto Slab', serif;

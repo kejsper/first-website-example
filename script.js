@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(window).on('scroll', function() {
     var pozycjaScrolla = $(window).scrollTop();
-    var rozmiarPrzed = $('.navbar').height();
+
     strzalkaGora(pozycjaScrolla);
     przewijaneMenu(pozycjaScrolla);
   });
@@ -27,10 +27,10 @@ $(document).ready(function() {
       $('#scrolltop').fadeOut(350);
     }
   }
-// zweza menu, zmienia rozmiar trzcionek
+// zweza menu, zmienia rozmiar fontow
   function przewijaneMenu(pozycjaScrolla) {
     if (pozycjaScrolla > 40) {
-      $('.navbar').stop().animate({height: '40px'}, 200);
+      $('.navbar-duzy').toggleClass('navbar-duzy navbar-maly');
       $('.duze-logo').toggleClass('duze-logo male-logo');
       $('.duze-linki').toggleClass('duze-linki male-linki');
 
@@ -38,7 +38,7 @@ $(document).ready(function() {
     else {
       $('.male-logo').toggleClass('male-logo duze-logo');
       $('.male-linki').toggleClass('male-linki duze-linki');
-      $('.navbar').stop().animate({height: '57px'}, 200);
+      $('.navbar-maly').toggleClass('navbar-maly navbar-duzy');
     }
   }
 });
