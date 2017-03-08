@@ -8,6 +8,7 @@ html, body {
   background: -o-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/kobietaokular.jpg) no-repeat; /*Opera 11.1-12*/
   background: -moz-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/kobietaokular.jpg) no-repeat; /*Fx 3.6-15*/
   background: linear-gradient(to right, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 100%), url(img/geek.jpg) no-repeat 0% 40%; /*Standard*/
+  background-size: cover;
   height: 400px;
 }
 
