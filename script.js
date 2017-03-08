@@ -21,19 +21,19 @@ $(document).ready(function() {
 // pokazuje strzalke do przewijania strony
   function strzalkaGora(pozycjaScrolla) {
     if (pozycjaScrolla > 100) {
-      $('#scrolltop').css('display', 'block');
+      $('#scrolltop').fadeIn(350);
     }
     else {
-      $('#scrolltop').css('display', 'none');
+      $('#scrolltop').fadeOut(350);
     }
   }
 // zweza menu, zmienia rozmiar trzcionek
   function przewijaneMenu(pozycjaScrolla) {
-    var rozmiarPo;
     if (pozycjaScrolla > 40) {
+      $('.navbar').stop().animate({height: '40px'}, 200);
       $('.duze-logo').toggleClass('duze-logo male-logo');
       $('.duze-linki').toggleClass('duze-linki male-linki');
-      $('.navbar').stop().animate({height: '40px'}, 200);
+
     }
     else {
       $('.male-logo').toggleClass('male-logo duze-logo');

@@ -3,11 +3,11 @@ html, body {
 }
 
 .jumbotron {
-  background: url("img/kobietaokular.jpg"); /* For browsers that do not support gradients */
+  background: url("img/geek.jpg"); /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/kobietaokular.jpg) no-repeat; /*Safari 5.1-6*/
   background: -o-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/kobietaokular.jpg) no-repeat; /*Opera 11.1-12*/
   background: -moz-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/kobietaokular.jpg) no-repeat; /*Fx 3.6-15*/
-  background: linear-gradient(to right, rgba(255,255,255,0.75) 10%, rgba(255,255,255,0.55) 20%, rgba(255, 255, 255, 0.7) 65%, rgba(255,255,255,1) 85%), url(img/kobietaokular.jpg) no-repeat 35% 40%; /*Standard*/
+  background: linear-gradient(to right, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 100%), url(img/geek.jpg) no-repeat 0% 40%; /*Standard*/
   height: 400px;
 }
 
@@ -25,16 +25,14 @@ html, body {
   margin: 0px;
   font-size: 30px;
   color: white;
-
+  transition: 0.4s;
 }
 .duze-logo:hover {
   color: #F1F2DF;
-  font-weight: bold;
-}
+  }
 
 .duze-logo:visited {
   color: white;
-  font-weight: bold;
 }
 
 .duze-linki  {
@@ -43,6 +41,7 @@ html, body {
   color: white;
   font-size: 22px;
   font-weight: bold;
+  transition: 0.4s;
 }
 
 .duze-linki:hover  {
@@ -62,7 +61,7 @@ html, body {
   padding: 5px;
   font-size: 18px;
   color: white;
-
+  transition: 0.4s;
 }
 .male-logo:hover {
   color: #F1F2DF;
@@ -80,6 +79,7 @@ html, body {
   color: white;
   font-size: 14px;
   font-weight: bold;
+  transition: 0.4s;
 }
 
 .male-linki:hover  {
