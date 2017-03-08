@@ -4,9 +4,9 @@ html, body {
 
 .jumbotron {
   background: url("img/geek.jpg"); /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/kobietaokular.jpg) no-repeat; /*Safari 5.1-6*/
-  background: -o-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/kobietaokular.jpg) no-repeat; /*Opera 11.1-12*/
-  background: -moz-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/kobietaokular.jpg) no-repeat; /*Fx 3.6-15*/
+  background: -webkit-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/geek.jpg) no-repeat; /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/geek.jpg) no-repeat; /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/geek.jpg) no-repeat; /*Fx 3.6-15*/
   background: linear-gradient(to right, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 100%), url(img/geek.jpg) no-repeat 0% 40%; /*Standard*/
   background-size: cover;
   height: 400px;
@@ -108,7 +108,11 @@ html, body {
 
 #omnie-container {
   padding-top: 56px;
-  height: 100vh;
+  
+}
+
+.card {
+  margin: 10px;
 }
 
 #kontakt-container {
