@@ -40,27 +40,27 @@ nav.navbar {
 
 
 .navbar-light span.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#FFFFFF' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#000' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   color: white;
 }
 
 button.navbar-toggler.navbar-toggler-right {
-  border-color: #FFFFFF;
+  border-color: #000;
   border-width: 2px;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 
 .duze-logo {
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
   margin: 0px;
-  font-size: 30px;
+  font-size: 36px;
   transition: 0.4s;
 }
 
 .duze-linki  {
   font-family: 'Roboto Slab', serif;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 700;
   transition: 0.4s;
 }
@@ -82,7 +82,7 @@ button.navbar-toggler.navbar-toggler-right {
 }
 
 #jumbotron {
-  padding-top: 57px;
+  padding-top: 69px;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
@@ -95,7 +95,8 @@ button.navbar-toggler.navbar-toggler-right {
 .tytuly {
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 36px;
+  letter-spacing: 2px;
 }
 
 .card-title  {
