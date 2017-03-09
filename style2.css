@@ -1,0 +1,41 @@
+nav.navbar {
+  background: #2D2D2D;
+}
+
+.navbar a.navbar-brand {
+  color: #FFFFFF;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.navbar a.navbar-brand:hover {
+  color: #ABABAB;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  transition: 0.4s;
+}
+
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #ABABAB;
+  font-weight: bold;
+}
+
+
+.navbar-light span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#FFFFFF' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white;
+}
+
+button.navbar-toggler.navbar-toggler-right {
+  border-color: #FFFFFF;
+  border-width: 2px;
+}
