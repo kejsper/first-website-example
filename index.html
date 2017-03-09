@@ -3,45 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>First Website Example</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Roboto+Slab:400,700" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Roboto+Slab:400,700|Sarala:400,700" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
 <!-- NAWIGACJA -->
 
-    <div id="top" class="container">
-      <nav class="navbar navbar-toggleable-md fixed-top navbar-fixed-width navbar-duzy">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nawigacja" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand duze-logo" href="#jumbotron"><i class="fa fa-code" aria-hidden="true"></i> kejsper <i class="fa fa-code" aria-hidden="true"></i></a>
-        <div class="collapse navbar-collapse justify-content-end" id="nawigacja">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link duze-linki" href="#omnie">Info</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link duze-linki" href="#kontakt-container">Kontakt</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+
+<nav class="navbar navbar-toggleable-md fixed-top navbar-fixed-width navbar-light">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<a class="navbar-brand duze-logo" href="#jumbotron"><i class="fa fa-code" aria-hidden="true"></i> kejsper <i class="fa fa-code" aria-hidden="true"></i></a>
+
+<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+<ul class="navbar-nav mt-2 mt-md-0">
+  <li class="nav-item">
+    <a class="nav-link duze-linki" href="#omnie">informacje</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link duze-linki" href="#kontakt-container">kontakt</a>
+  </li>
+</ul>
+
+</div>
+</nav>
+
 
 <!-- SEKCJA PIERWSZA JUMBOTRON -->
     <section id="jumbotron">
       <div class="jumbotron jumbotron-fluid">
-        <div id="jumbo-tekst" class="container text-right">
-              <h1 class="display-3">Dłuższy tekst.</h1>
-              <p>Ale nie za bardzo.</p>
+        <div class="container text-right">
+              <h1 class="display-2" style="font-family: 'Sarala', sans-serif;">Dołącz do grona </br>naszych klientów.</h1>
+              <h3 style="font-family: 'Sarala', sans-serif;">Bardzo lubimy mieć klientów.</h3>
         </div>
       </div>
     </section>
 <!-- SEKCJA DRUGA O MNIE -->
     <section id="omnie">
       <div id="omnie-container" class="container">
-        <h3>Informacje</h3>
+        <h3 class="tytuly">informacje</h3>
         <div class="card-deck">
             <div class="card">
               <img class="card-img-top img-thumbnail" src="img/bradley.jpg" alt="Tak wygladam wstając rano do pracy po imprezie.">
@@ -53,7 +55,7 @@
             <div class="card">
               <img class="card-img-top img-thumbnail" src="img/coding2.jpg" alt="Mimo wszystko korzystamy z komputerów stacjonarnych">
               <div class="card-block">
-                <h4 class="card-title">Nasze projekty</h4>
+                <h4 class="card-title">Moje projekty</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
             </div>
@@ -61,7 +63,7 @@
           <div class="card">
             <iframe height="400px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1253.0016941544677!2d16.989432657405164!3d51.08994497956872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc226a1efcb3d%3A0x63992bb5d3eae153!2zUG9kcsOzxbxuaWN6YSAxNSwgV3JvY8WCYXc!5e0!3m2!1spl!2spl!4v1489000407901" frameborder="0" style="border:0" allowfullscreen></iframe>
             <div class="card-block">
-              <h4 class="card-title">Gdzie jesteśmy?</h4>
+              <h4 class="card-title">Tutaj mnie znajdziesz</h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </div>
@@ -72,7 +74,7 @@
 <!-- SEKCJA TRZECIA KONTAKT -->
     <section id="kontakt">
       <div id="kontakt-container" class="container">
-        <h3>KONTAKT</h3>
+        <h3 class="tytuly">kontakt</h3>
         <div class="row">
           <div class="col-12">
             <p>Twoj adres e-mail:</p>

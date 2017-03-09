@@ -1,5 +1,6 @@
 html, body {
-    color: #343444;
+    font-family: 'Sarala', sans-serif;
+    color: black;
 }
 
 .jumbotron {
@@ -7,108 +8,105 @@ html, body {
   background: -webkit-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/geek.jpg) no-repeat; /*Safari 5.1-6*/
   background: -o-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/geek.jpg) no-repeat; /*Opera 11.1-12*/
   background: -moz-linear-gradient(bottom,rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(img/geek.jpg) no-repeat; /*Fx 3.6-15*/
-  background: linear-gradient(to right, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 100%), url(img/geek.jpg) no-repeat 0% 40%; /*Standard*/
+  background: linear-gradient(to right, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(img/geek3.jpg) no-repeat 0% 30%; /*Standard*/
   background-size: cover;
   height: 400px;
 }
 
-.navbar-duzy {
-  background-color: #343444;
-  height: 57px;
-  border: 0px;
-  padding: 0px 20px 2px 25px;
-  transition: 0.4s;
+nav.navbar {
+  background: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
 }
 
-.navbar-maly {
-  background-color: #343444;
-  height: 40px;
-  border: 0px;
-  padding: 0px 20px 2px 25px;
-  transition: 0.4s
+.navbar a.navbar-brand {
+  color: #000;
 }
 
+.navbar a.navbar-brand:hover {
+  color: #444;
+}
+
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+  color: #000;
+}
+
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #444;
+}
+
+
+.navbar-light span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#FFFFFF' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white;
+}
+
+button.navbar-toggler.navbar-toggler-right {
+  border-color: #FFFFFF;
+  border-width: 2px;
+  margin-top: 5px;
+}
 
 .duze-logo {
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
   margin: 0px;
   font-size: 30px;
-  color: white;
   transition: 0.4s;
-}
-.duze-logo:hover {
-  color: #F1F2DF;
-  }
-
-.duze-logo:visited {
-  color: white;
 }
 
 .duze-linki  {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
   font-weight: 700;
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
   transition: 0.4s;
-}
-
-.duze-linki:hover  {
-  color: #F1F2DF;
-  font-weight: bold;
-}
-
-.duze-linki:visited  {
-  color: white;
-  font-weight: bold;
 }
 
 .male-logo {
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
   font-size: 18px;
-  color: white;
   transition: 0.4s;
-}
-.male-logo:hover {
-  color: #F1F2DF;
-  font-weight: bold;
-}
-
-.male-logo:visited {
-  color: white;
-  font-weight: bold;
 }
 
 .male-linki  {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  color: white;
   font-size: 14px;
-  font-weight: bold;
   transition: 0.4s;
-}
-
-.male-linki:hover  {
-  color: #F1F2DF;
-  font-weight: bold;
-}
-
-.male-linki:visited  {
-  color: white;
-  font-weight: bold;
 }
 
 #jumbotron {
   padding-top: 57px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.jumbotron {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.tytuly {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.card-title  {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 #omnie-container {
-  padding-top: 56px;
-  
+  padding-top: 40px;
+  margin-top: 0px;
 }
 
 .card {
@@ -117,7 +115,7 @@ html, body {
 
 #kontakt-container {
   position: relative;
-  padding-top: 56px;
+  padding-top: 35px;
   height: 100vh;
 }
 
@@ -126,7 +124,8 @@ html, body {
   bottom: 30px;
   right: 30px;
   display: none;
-  opacity: 0.5;
+  background-color:black;
+  opacity: 0.2;
 }
 
 #scrolltop:hover  {
@@ -134,12 +133,14 @@ html, body {
   bottom: 30px;
   right: 30px;
   display: none;
-  opacity: 1;
+  opacity: 0.8;
   cursor: pointer;
+  background-color: black;
 }
 
 #scrolltop > .fa {
   font-size: 55px;
+  color: white;
 }
 
 
