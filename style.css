@@ -146,7 +146,7 @@ button.navbar-toggler.navbar-toggler-right {
 
 
 @media all and (min-width: 768px) {
-  .navbar-fixed-width {
+  .navbar-fixed-menu {
     width: 768px;
     margin-left: auto;
     margin-right:auto;
@@ -154,7 +154,7 @@ button.navbar-toggler.navbar-toggler-right {
 }
 
 @media all and (min-width: 992px) {
-  .navbar-fixed-width {
+  .navbar-fixed-menu   {
     width: 992px;
     margin-left: auto;
     margin-right:auto;
@@ -163,8 +163,8 @@ button.navbar-toggler.navbar-toggler-right {
 }
 
 @media all and (min-width: 1200px) {
-  .navbar-fixed-width {
-    width: 100%;
+  .navbar-fixed-menu {
+    width: 1200px;
     margin-left: auto;
     margin-right:auto;
   }
