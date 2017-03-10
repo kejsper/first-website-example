@@ -17,9 +17,7 @@ nav.navbar {
   background: #fff;
   padding-top: 0;
   padding-bottom: 0;
-  border-radius: 2px;
-  border-width: 2px;
-  border-style: solid;
+
 }
 
 .navbar a.navbar-brand {
