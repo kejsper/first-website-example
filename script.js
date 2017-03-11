@@ -28,7 +28,8 @@ $(document).ready(function () {
   }
   // navigation bar sizes animations
   function przewijaneMenu(pozycjaScrolla) {
-    if (pozycjaScrolla > 40) {
+    var wielkoscEkranu = $(window).width();
+    if (pozycjaScrolla > 40 && wielkoscEkranu > 768) {
       $('.duze-logo').toggleClass('duze-logo male-logo');
       $('.duze-linki').toggleClass('duze-linki male-linki');
     }

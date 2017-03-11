@@ -4,8 +4,10 @@ html, body {
     height: 100%;
 }
 
-h6, p {
-  font-family: 'Sarala', sans-serif;
+h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+
 }
 
 .jumbotron {
@@ -104,14 +106,24 @@ button.navbar-toggler.navbar-toggler-right {
   letter-spacing: 2px;
 }
 
+.margintop {
+  margin-top: 25px;
+}
+.card {border: 0}
+img.img-thumbnail {border: 0; padding: 0}
+
 .card-title  {
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
   font-size: 24px;
 }
 
+#omnie {
+  padding-bottom: 40px;
+}
+
 #omnie-container {
-  padding-top: 40px;
+  padding-top: 68px;
   margin-top: 0px;
 }
 
@@ -125,9 +137,13 @@ button.navbar-toggler.navbar-toggler-right {
 
 #kontakt-container {
   position: relative;
-  padding-top: 35px;
+  padding-top: 68px;
   padding-bottom: 35px;
 }
+
+p.marginbot {margin-bottom: 5px}
+button.kontakt {margin-top: 5px}
+input.kontakt, textarea.kontakt {margin-bottom: 15px}
 
 #scrolltop  {
   position: fixed;
@@ -161,6 +177,27 @@ button.navbar-toggler.navbar-toggler-right {
   padding-bottom: 20px;
   padding-top: 20px;
 
+}
+
+.fb {
+  background-color: #3b5998
+}
+.tw {
+  background-color: #55acee;
+}
+.git {
+  background-color: white;
+}
+
+.git:hover, .git:active {background-color: lightgrey}
+
+.fa-facebook, .fa-twitter {
+  font-size: 35px;
+}
+
+.fa-github, .fa-codepen {
+  font-size: 35px;
+  color: black;
 }
 
 .footer-link  {
