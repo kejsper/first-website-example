@@ -4,12 +4,12 @@ $(document).ready(function () {
     strzalkaGora(pozycjaScrolla);
     przewijaneMenu(pozycjaScrolla);
   });
-  // animuje przewijanie po nacisnieciu strzalki
+  // scroll top button animation
   $('#scrolltop').on('click', function (event) {
     event.preventDefault();
     $('html, body').animate({scrollTop: 0}, 700);
   });
-  // animuje linki na stronie
+  // inside links animation
   $('a[href^="#"]').on('click', function (event) {
     var target = $($(this).attr('href'));
     if ( target.length ) {
@@ -17,7 +17,7 @@ $(document).ready(function () {
       $('html, body').animate({scrollTop: target.offset().top}, 700);
     }
   });
-  // pokazuje strzalke do przewijania strony
+  // shows scroll top button
   function strzalkaGora(pozycjaScrolla) {
     if (pozycjaScrolla > 100) {
       $('#scrolltop').fadeIn(350);
@@ -26,7 +26,7 @@ $(document).ready(function () {
       $('#scrolltop').fadeOut(350);
     }
   }
-  // zweza menu, zmienia rozmiar fontow
+  // navigation bar sizes animations
   function przewijaneMenu(pozycjaScrolla) {
     if (pozycjaScrolla > 40) {
       $('.duze-logo').toggleClass('duze-logo male-logo');
