@@ -109,6 +109,12 @@ button.navbar-toggler.navbar-toggler-right {
 .margintop {
   margin-top: 25px;
 }
+
+.margines-lewy {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .card {border: 0}
 img.img-thumbnail {border: 0; padding: 0}
 
@@ -118,6 +124,11 @@ img.img-thumbnail {border: 0; padding: 0}
   font-size: 24px;
 }
 
+.card-block {
+  margin-left: 0;
+  padding-left: 0 !important;
+}
+
 #omnie {
   padding-bottom: 40px;
 }
@@ -125,10 +136,19 @@ img.img-thumbnail {border: 0; padding: 0}
 #omnie-container {
   padding-top: 68px;
   margin-top: 0px;
+
 }
 
 .card {
   margin: 10px;
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  top: 400px;
+  margin-top: -400px;
 }
 
 #kontakt {
@@ -150,8 +170,7 @@ input.kontakt, textarea.kontakt {margin-bottom: 15px}
   bottom: 30px;
   right: 30px;
   display: none;
-  background-color:black;
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 #scrolltop:hover  {
@@ -159,14 +178,13 @@ input.kontakt, textarea.kontakt {margin-bottom: 15px}
   bottom: 30px;
   right: 30px;
   display: none;
-  opacity: 0.8;
+  opacity: 1;
   cursor: pointer;
-  background-color: black;
 }
 
 #scrolltop > .fa {
   font-size: 55px;
-  color: white;
+  color: black;
 }
 
 .footer {
@@ -180,13 +198,19 @@ input.kontakt, textarea.kontakt {margin-bottom: 15px}
 }
 
 .fb {
-  background-color: #3b5998
+  background-color: #3b5998;
+  border-width: 0;
+  width: 67px;
 }
 .tw {
   background-color: #55acee;
+  border-width: 0;
+  width: 67px;
 }
 .git {
   background-color: white;
+  border-width: 0;
+  width: 67px;
 }
 
 .git:hover, .git:active {background-color: lightgrey}
